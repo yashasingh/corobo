@@ -82,7 +82,19 @@ class Explain(BotPlugin):
                      'newcomer Pull Request\n- review at least a difficulty/'
                      'newcomer Pull Request\n- merge a difficulty/low Pull '
                      'Request\n- review at least a difficulty/low or higher '
-                     'Pull Request'
+                     'Pull Request',
+        'do not ask to ask': 'This seems a lazy way of asking your question '
+                             'Don\'t take it personally. It\'s just that '
+                             'you\'re asking for more than what you think '
+                             'you\'re asking. The solution is not to simply '
+                             'question people about them, but just to '
+                             'ask for your piece of information by actaully '
+                             'formalizing it in words. Someone who is idling '
+                             'on the channel and only occasionally glances '
+                             'at what\'s going on is unlikely to answer '
+                             'to your "asking to ask" question, but your '
+                             'actual problem description may pique their '
+                             'interest and get them to answer.'
     }
 
     ERROR_MSG = (
